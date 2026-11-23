@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>School Management System</title>
+
+    <link rel="stylesheet" href="AssetsSDB/style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <h2>🏫 SCHOOL MANAGEMENT SYSTEM</h2>
+
+    <nav>
+        <a href="index.php">Home</a>
+        <a href="userlogin.php">Login</a>
+        <a href="register.php">Register</a>
+    </nav>
+</header>
+
+<div class="layout">
+
+    <aside class="sidebar" id="sidebar">
+
+        <h3>MAIN MENU</h3>
+
+        <a href="index.php">🏠 Home</a>
+        <a href="userlogin.php">🔐 Login</a>
+        <a href="register.php">📝 Registration</a>
+        <a href="dashboard.php">📊 Dashboard</a>
+
+        <h3>SCHOOL MANAGEMENT</h3>
+
+        <a href="studentsreg.php">👨‍🎓 Students</a>
+        <a href="teachers.php">👨‍🏫 Teachers</a>
+        <a href="Class.php">🏫 Classes</a>
+        <a href="subjectmanagement.php">📚 Subjects</a>
+        <a href="attendance.php">📅 Attendance</a>
+        <a href="results.php">📈 Results</a>
+        <a href="fees.php">💰 School Fees</a>
+        <a href="announcements.php">📢 Announcements</a>
+
+        <a href="logout.php" class="logout">🚪 Logout</a>
+
+    </aside>
+
+    <main class="content">
+
+        <section class="card">
+            <h1>Welcome to Our School Management System</h1>
+
+            <p>
+                Manage students, teachers, classes, subjects,
+                attendance, examinations and school fees
+                through one digital platform.
+            </p>
+
+            <br>
+
+            <a href="userlogin.php">
+                <button>Get Started</button>
+            </a>
+        </section>
+
+        <h2>Our Management Modules</h2>
+
+        <div class="dashboard-cards">
+
+            <div class="card">
+                <h2>Students</h2>
+                <p>Manage student records.</p>
+                <a href="studentsreg.php">Open Students</a>
+            </div>
+
+            <div class="card">
+                <h2>Teachers</h2>
+                <p>Manage teacher records.</p>
+                <a href="teachers.php">Open Teachers</a>
+            </div>
+
+            <div class="card">
+                <h2>Classes</h2>
+                <p>Organize school classes.</p>
+                <a href="Class.php">Open Classes</a>
+            </div>
+
+            <div class="card">
+                <h2>Subjects</h2>
+                <p>Manage academic subjects.</p>
+                <a href="subjectmanagement.php">Open Subjects</a>
+            </div>
+
+            <div class="card">
+                <h2>Attendance</h2>
+                <p>Monitor student attendance.</p>
+                <a href="attendance.php">Open Attendance</a>
+            </div>
+
+            <div class="card">
+                <h2>Results</h2>
+                <p>Manage examinations and marks.</p>
+                <a href="results.php">Open Results</a>
+            </div>
+
+            <div class="card">
+                <h2>School Fees</h2>
+                <p>Manage student payments.</p>
+                <a href="fees.php">Open Fees</a>
+            </div>
+
+            <div class="card">
+                <h2>Announcements</h2>
+                <p>Publish school announcements.</p>
+                <a href="announcements.php">Open Announcements</a>
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<footer class="footer">
+    <p>School Management System © 2026</p>
+    <p>Powered by PHP, MySQL, HTML, CSS and JavaScript</p>
+</footer>
+
+<script src="AssetsSDB/script.js"></script>
+
+</body>
+</html>
